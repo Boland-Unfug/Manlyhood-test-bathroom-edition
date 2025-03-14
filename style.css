@@ -26,7 +26,7 @@ body {
 /* Resize images inside the #header div */
 #quiz img {
     /* padding-inline: 5px; */
-    width: 20%;         /* Makes the image take up 100% of the div's width */
+    width: 15%;         /* Makes the image take up 100% of the div's width */
     height: auto;        /* Keeps the image's aspect ratio */
     max-width: 20%;     /* Ensures image doesn't grow beyond the div */
     min-width: 15%;

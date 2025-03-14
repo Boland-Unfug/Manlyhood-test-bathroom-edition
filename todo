@@ -1,9 +1,16 @@
 aight so programming wise what do I need to do?
 Title
-- floating bar near top with title
+- floating bar at top with title
 Quiz visuals
-- a box that can store 4-5 pictures, which should also be flexible
-- when clicked, show a blue border
+- image in wikihow style
+    - need to upscale ☑️
+        - good enough for now but might have someone draw it.
+- a box that can store 5 pictures
+    - should also be flexible ☑️
+- on hover, show blue border
+- when clicked, show a border corresponding to if its correct or not (red or green)
 Interactivity
 - when a button is clicked, show correct answers
 - add a next button
+Need more pictures - such as ones with people
+    - readjust image sizes to account for people even if not present at urinal
