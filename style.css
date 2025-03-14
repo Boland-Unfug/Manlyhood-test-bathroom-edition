@@ -1,0 +1,25 @@
+/* Set the body to use the full viewport height */
+body, html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    background-color: orange; /* Optional: sets a background color */
+}
+
+/* Style the header div */
+#header {
+    width:90%;
+    background-color: #3498db; /* Optional: sets a background color */
+    display: inline-block; /* Makes the div adjust its size based on content */
+    text-align: center;  /* Centers text inside the div */
+}
+
+/* Resize images inside the #header div */
+#header img {
+    width: 20%;         /* Makes the image take up 100% of the div's width */
+    height: auto;        /* Keeps the image's aspect ratio */
+    max-width: 20%;     /* Ensures image doesn't grow beyond the div */
+    min-width: 15%;
+}
